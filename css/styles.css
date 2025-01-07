@@ -1,0 +1,252 @@
+/* CD/CI Definitions */
+:root {
+  --primary-bg: #F4F2D8;
+  --primary-text: #3B3B3B;
+  --accent-color: #309ACC;
+  --black: #3B3B3B;
+  --font-family: 'Tablet Gothic', Arial, sans-serif;
+}
+
+/* Basic reset */
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+}
+
+/* Header */
+header {
+  background-color: var(--primary-bg);
+  text-align: center;
+  padding: 30px 0;
+  padding-bottom: 60px;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+}
+
+/* Introduction */
+#intro {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  margin: 0;
+  font-family: "anisette-std", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  border-top: solid 3px var(--black);
+  padding-top: 40px;
+}
+
+/* Main */
+#main {
+  padding: 20px;
+}
+
+/* Toggle buttons */
+.toggle-button {
+  padding: 10px 20px;
+  background-color: var(--accent-color);
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px;
+  padding-bottom: 0px;
+}
+
+/* Cards */
+.card {
+  padding: 25px;
+  flex: 1 1 calc(33.333% - 40px); /* 3 cards per row, subtracting gap */
+  box-sizing: border-box;
+  height: 520px;
+}
+
+.card img:hover {
+  cursor: pointer;
+}
+
+.card-inner {
+  width: 100%;
+  height: 250px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.card.flip .card-inner {
+  transform: rotateY(180deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  background-color: var(--primary-bg);
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.button-74 {
+  background-color: var(--primary-bg);
+  border: 2px solid var(--black);
+  border-radius: 30px;
+  box-shadow: var(--black) 4px 4px 0 0;
+  color: var(--black);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: var(--black);
+  color: var(--primary-bg);
+}
+
+.button-74:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+.redewendungen {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 40px;
+  padding-bottom: 0px;
+}
+
+.redewendung {
+  padding: 25px;
+  flex: 1 1 calc(33.333% - 40px);
+  box-sizing: border-box;
+  height: 520px;
+}
+
+.redewendung img:hover {
+  cursor: pointer;
+}
+
+.redewendung-inner {
+  width: 100%;
+  height: 250px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.redewendung.flip .redewendung-inner {
+  transform: rotateY(180deg);
+}
+
+.redewendung-front,
+.redewendung-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.redewendung-back {
+  transform: rotateY(180deg);
+  background-color: var(--primary-bg);
+}
+
+.footer-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px;
+  background-color: var(--primary-bg);
+  gap: 10px;
+  color: #FFF7DF;
+  border-top: solid 3px var(--black);
+}
+
+.footer-div p {
+  color: var(--black);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.footer-div img {
+  vertical-align: middle;
+}
+
+.footer-div img:hover {
+  opacity: 0.7;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  .card, .redewendung {
+    width: 45%;
+  }
+
+  .redewendungen {
+    flex-direction: row;
+  }
+} */
+
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+
+  .card, .redewendung {
+    flex: 1 1 calc(50% - 40px);
+  }
+} */
+
+@media (max-width: 768px) {
+  .card, .redewendung {
+    flex: 1 1 100%;
+    height: 50vh;
+  }
+}
+
+/* @media (max-width: 375px) {
+  .card, .redewendung {
+    flex: 1 1 100%;
+    height: auto;
+  }
+} */
+
