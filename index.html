@@ -4,49 +4,216 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Obersàxer Titsch</title>
-  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.typekit.net/YOUR_KIT_ID.css"> <!-- TODO: Add your Adobe Fonts kit ID for anisette-std -->
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/navigation.css">
+  <link rel="stylesheet" href="assets/css/hero.css">
+  <link rel="stylesheet" href="assets/css/carousel.css">
+  <link rel="stylesheet" href="assets/css/cards.css">
+  <link rel="stylesheet" href="assets/css/background.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  
+  <!-- Favicon -->
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
-  <header>
-    <img class="logo" src="img/Logo.svg" alt="Obersàxer Titsch Logo">
+  <!-- Animated background dots -->
+  <div id="background-dots" class="background-dots"></div>
+
+  <!-- Navigation -->
+  <header class="header">
+    <nav class="nav">
+      <a href="index.html" class="nav__logo-link">
+        <img src="img/Logo.svg" alt="Obersàxer Titsch Logo" class="nav__logo">
+      </a>
+      
+      <button class="nav__toggle" id="nav-toggle" aria-label="Navigation öffnen">
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+        <span class="nav__toggle-line"></span>
+      </button>
+
+      <ul class="nav__menu" id="nav-menu">
+        <li class="nav__item">
+          <a href="index.html" class="nav__link nav__link--active">Weerter & Redewendiga</a>
+        </li>
+        <li class="nav__item nav__item--dropdown">
+          <button class="nav__link nav__dropdown-toggle" aria-expanded="false">
+            Hintergrundwissen
+            <svg class="nav__dropdown-icon" width="12" height="8" viewBox="0 0 12 8" fill="none">
+              <path d="M1 1L6 6L11 1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+            </svg>
+          </button>
+          <ul class="nav__dropdown">
+            <li><a href="geschichte.html" class="nav__dropdown-link">Zur Geschichte</a></li>
+            <li><a href="sprache.html" class="nav__dropdown-link">Zur Sprache</a></li>
+            <li><a href="aussprache.html" class="nav__dropdown-link">Aussprache & Schreibweise</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
   </header>
 
-  <!-- <div id="intro">
-    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>
-  </div> -->
-
-  <div id="main">
-    <div class="cards-div">
-      <h1 class="card-title">Weerter</h1>
-      <div class="cards" id="cards">
-        <!-- Cards will be dynamically added -->
+  <!-- Hero Section: Word of the Day -->
+  <section class="hero" id="hero">
+    <div class="hero__container">
+      <h2 class="hero__title">Wort vom Tàg</h2>
+      <div class="hero__card-wrapper">
+        <div class="hero__card" id="hero-card">
+          <!-- Rendered by word-of-the-day.js -->
+        </div>
       </div>
-      <div class="button-container">
-        <button id="mehr-anzeigen" class="button-74" role="button">meh weerter</button>
+      <a href="#carousel" class="hero__scroll-hint" aria-label="Nach unten scrollen">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+          <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Word Carousel -->
+  <section class="carousel" id="carousel">
+    <div class="carousel__container">
+      <h2 class="carousel__title">Meh Weerter</h2>
+      
+      <div class="carousel__wrapper">
+        <button class="carousel__btn carousel__btn--prev" id="carousel-prev" aria-label="Vorherige Wörter">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        
+        <div class="carousel__track" id="carousel-track">
+          <!-- Rendered by carousel.js -->
+        </div>
+        
+        <button class="carousel__btn carousel__btn--next" id="carousel-next" aria-label="Nächste Wörter">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
       </div>
     </div>
-    
+  </section>
 
-    <h1 class="redewendung-title">Redewendiga</h1>
-    <div class="redewendungen" id="redewendungen">
-      <!-- Redewendiga will be dynamically added -->
-    </div>
-    <div class="button-container">
-      <button id="mehr-anzeigen-redewendung" class="button-74" role="button">meh redewendiga</button>
-    </div>
-
-  </div>
-
-  <footer>
-    <div class="footer-div">
-        <p>Obersàxer Titsch</p>
-        <a href="https://instagram.com/obersaxer.titsch" target="_blank">
-            <img src="img/instalogo.png" alt="Instagram Logo" width="30" height="30">
+  <!-- Introduction to Background Knowledge -->
+  <section class="intro-section">
+    <div class="intro-section__container">
+      <h2 class="intro-section__title">Hintergrundwissen</h2>
+      <p class="intro-section__text">
+        Erfahre mehr über die Geschichte, Besonderheiten und Aussprache des Obersaxer Titsch – 
+        einer der ältesten und eigenständigsten Dialekte der Schweiz.
+      </p>
+      <div class="intro-section__links">
+        <a href="geschichte.html" class="intro-section__card">
+          <h3>Zur Geschichte</h3>
+          <p>Wie der Dialekt entstanden ist</p>
         </a>
+        <a href="sprache.html" class="intro-section__card">
+          <h3>Zur Sprache</h3>
+          <p>Besonderheiten und Einflüsse</p>
+        </a>
+        <a href="aussprache.html" class="intro-section__card">
+          <h3>Aussprache & Schreibweise</h3>
+          <p>Tipps zur richtigen Aussprache</p>
+        </a>
+      </div>
     </div>
-</footer>
+  </section>
 
-  <script src="js/script.js"></script>
+  <!-- Main Content: Weerter & Redewendiga -->
+  <main class="main" id="main">
+    
+    <!-- Weerter Section -->
+    <section class="cards-section" id="weerter-section">
+      <div class="cards-section__container">
+        <h1 class="cards-section__title">Weerter</h1>
+        
+        <!-- Sort/Filter Bar -->
+        <div class="sort-bar" id="sort-bar-weerter">
+          <div class="sort-bar__group">
+            <label for="sort-weerter" class="sort-bar__label">Sortieren:</label>
+            <select id="sort-weerter" class="sort-bar__select">
+              <option value="dialect-az">A-Z (Dialekt)</option>
+              <option value="german-az">A-Z (Hochdeutsch)</option>
+              <option value="newest">Neueste zuerst</option>
+            </select>
+          </div>
+          
+          <div class="sort-bar__group">
+            <label for="filter-category-weerter" class="sort-bar__label">Kategorie:</label>
+            <select id="filter-category-weerter" class="sort-bar__select">
+              <option value="all">Alle</option>
+              <option value="noun">Substantive</option>
+              <option value="verb">Verben</option>
+              <option value="adjective">Adjektive</option>
+              <option value="expression">Ausdrücke</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="cards-grid" id="cards-grid-weerter">
+          <!-- Rendered by card-renderer.js -->
+        </div>
+
+        <!-- Load More Button -->
+        <div class="load-more-container">
+          <button class="btn btn--primary" id="load-more-weerter">Meh Weerter</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Redewendiga Section -->
+    <section class="cards-section" id="redewendiga-section">
+      <div class="cards-section__container">
+        <h1 class="cards-section__title">Redewendiga</h1>
+        
+        <!-- Sort Bar -->
+        <div class="sort-bar" id="sort-bar-redewendiga">
+          <div class="sort-bar__group">
+            <label for="sort-redewendiga" class="sort-bar__label">Sortieren:</label>
+            <select id="sort-redewendiga" class="sort-bar__select">
+              <option value="dialect-az">A-Z (Dialekt)</option>
+              <option value="german-az">A-Z (Hochdeutsch)</option>
+              <option value="newest">Neueste zuerst</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="cards-grid" id="cards-grid-redewendiga">
+          <!-- Rendered by card-renderer.js -->
+        </div>
+
+        <!-- Load More Button -->
+        <div class="load-more-container">
+          <button class="btn btn--primary" id="load-more-redewendiga">Meh Redewendiga</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__text">Obersàxer Titsch</p>
+      <a href="https://instagram.com/obersaxer.titsch" target="_blank" rel="noopener noreferrer" class="footer__social">
+        <img src="img/instalogo.png" alt="Instagram" width="30" height="30">
+      </a>
+    </div>
+  </footer>
+
+  <!-- JavaScript Modules -->
+  <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>

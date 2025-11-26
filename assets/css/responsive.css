@@ -1,0 +1,167 @@
+/**
+ * Responsive CSS
+ * Mobile-first responsive breakpoints
+ */
+
+/* ============================================
+   Breakpoints:
+   - Mobile: < 768px (default)
+   - Tablet: 768px - 1024px
+   - Desktop: > 1024px
+   ============================================ */
+
+/* ============================================
+   Mobile (< 768px) - Default styles above
+   ============================================ */
+
+/* ============================================
+   Tablet (768px - 1024px)
+   ============================================ */
+@media (min-width: 768px) {
+  /* Typography */
+  html {
+    font-size: 17px;
+  }
+  
+  /* Spacing */
+  .main {
+    padding: var(--space-xl) var(--space-lg);
+  }
+  
+  /* Navigation */
+  .nav {
+    padding: var(--space-lg) var(--space-lg);
+  }
+  
+  .nav__logo {
+    height: 60px;
+  }
+  
+  /* Hero */
+  .hero {
+    min-height: 85vh;
+  }
+  
+  .hero__title {
+    font-size: 3.5rem;
+  }
+  
+  /* Cards Grid */
+  .cards-grid {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-lg);
+  }
+  
+  .card {
+    height: 380px;
+  }
+}
+
+/* ============================================
+   Desktop (> 1024px)
+   ============================================ */
+@media (min-width: 1024px) {
+  /* Typography */
+  html {
+    font-size: 18px;
+  }
+  
+  /* Spacing */
+  .main {
+    padding: var(--space-2xl) var(--space-xl);
+  }
+  
+  /* Navigation */
+  .nav {
+    padding: var(--space-lg) var(--space-2xl);
+  }
+  
+  .nav__logo {
+    height: 70px;
+  }
+  
+  /* Hero */
+  .hero {
+    min-height: 90vh;
+  }
+  
+  .hero__title {
+    font-size: 4rem;
+  }
+  
+  /* Cards Grid */
+  .cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-xl);
+  }
+  
+  .card {
+    height: 420px;
+  }
+  
+  /* Carousel */
+  .carousel__item {
+    width: 220px;
+  }
+  
+  .card--carousel {
+    height: 300px;
+  }
+}
+
+/* ============================================
+   Large Desktop (> 1400px)
+   ============================================ */
+@media (min-width: 1400px) {
+  /* Typography */
+  html {
+    font-size: 18px;
+  }
+  
+  /* Cards Grid */
+  .cards-grid {
+    gap: var(--space-2xl);
+  }
+  
+  .card {
+    height: 480px;
+  }
+}
+
+/* ============================================
+   Footer
+   ============================================ */
+.footer {
+  background-color: var(--color-bg);
+  border-top: 3px solid var(--color-text);
+  padding: var(--space-xl) var(--space-md);
+  margin-top: var(--space-2xl);
+}
+
+.footer__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+}
+
+.footer__text {
+  font-weight: 600;
+  margin: 0;
+}
+
+.footer__social img {
+  transition: opacity var(--transition-fast);
+}
+
+.footer__social:hover img {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: var(--space-lg) var(--space-md);
+  }
+}
