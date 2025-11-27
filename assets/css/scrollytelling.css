@@ -43,6 +43,7 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: var(--space-2xl) var(--space-md);
+  padding-bottom: 0;
 }
 
 /* ============================================
@@ -70,6 +71,14 @@
 
 .scrolly-section__text {
   padding: var(--space-xl) 0;
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.8s ease 0.2s, transform 0.8s ease 0.2s;
+}
+
+.scrolly-section.is-visible .scrolly-section__text {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .scrolly-section__text h2 {
@@ -112,7 +121,6 @@
 .scrolly-section__image img {
   width: 100%;
   height: auto;
-  border-radius: var(--radius-lg);
   box-shadow: var(--shadow-lg);
   border: 3px solid var(--color-text);
 }
@@ -194,4 +202,29 @@
   .scrolly-section:nth-child(even) .scrolly-section__image {
     order: 2;
   }
+}
+
+/* ============================================
+   Scroll to Top Button
+   ============================================ */
+.scroll-to-top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border: 2px solid var(--color-text);
+  color: var(--color-text);
+  transition: all var(--transition-base);
+  cursor: pointer;
+}
+
+.scroll-to-top:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  transform: translateY(-4px);
+}
+
+.scroll-to-top svg {
+  transform: rotate(180deg);
 }
