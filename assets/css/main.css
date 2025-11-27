@@ -10,7 +10,7 @@
   /* Colors */
   --color-bg: #FFFEF5;
   --color-text: #3B3B3B;
-  --color-accent-1: #2F88C1;
+  --color-accent-1: grey;
   --color-accent-2: #C95858;
   --color-accent-3: #F29C50;
   --color-accent-4: #8666A2;
@@ -115,7 +115,6 @@ a:hover {
   font-weight: 600;
   text-align: center;
   border: 2px solid var(--color-text);
-  border-radius: 30px;
   background-color: var(--color-bg);
   color: var(--color-text);
   cursor: pointer;
@@ -201,7 +200,6 @@ a:hover {
 .intro-section__card {
   padding: var(--space-lg);
   background: white;
-  border-radius: var(--radius-md);
   border: 2px solid var(--color-text);
   box-shadow: var(--color-text) 4px 4px 0 0;
   transition: all var(--transition-base);
@@ -223,6 +221,25 @@ a:hover {
 .intro-section__card p {
   margin: 0;
   color: #666;
+}
+
+.intro-section__scroll-hint {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border: 2px solid var(--color-text);
+  color: var(--color-text);
+  transition: all var(--transition-base);
+  animation: bounce 2s ease-in-out infinite;
+  margin-top: var(--space-xl);
+}
+
+.intro-section__scroll-hint:hover {
+  background-color: var(--color-text);
+  color: var(--color-bg);
+  transform: translateY(4px);
 }
 
 /* ============================================
@@ -264,4 +281,60 @@ a:hover {
 
 body {
   animation: fadeIn 0.6s ease;
+}
+
+/* ============================================
+   Page Header (for dedicated pages)
+   ============================================ */
+.page-header {
+  padding: var(--space-2xl) var(--space-md) var(--space-lg);
+  text-align: center;
+}
+
+.page-header__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.page-header__back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  color: var(--color-text);
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: var(--space-md);
+  transition: color var(--transition-base);
+}
+
+.page-header__back:hover {
+  color: var(--color-accent-1);
+}
+
+.page-header__back svg {
+  width: 24px;
+  height: 24px;
+}
+
+.page-header__title {
+  font-family: var(--font-heading);
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--color-text);
+  margin: 0;
+}
+
+.main--page {
+  padding-top: 0;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    padding: var(--space-xl) var(--space-md) var(--space-md);
+  }
+  
+  .page-header__title {
+    font-size: 2.5rem;
+  }
 }

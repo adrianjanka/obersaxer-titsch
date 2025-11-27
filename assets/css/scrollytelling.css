@@ -1,0 +1,197 @@
+/**
+ * Scrollytelling CSS
+ * For interactive story pages with sticky images
+ */
+
+/* ============================================
+   Scrollytelling Hero
+   ============================================ */
+.scrolly-hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-2xl) var(--space-md);
+  text-align: center;
+  background: linear-gradient(135deg, rgba(47, 136, 193, 0.05), rgba(134, 102, 162, 0.05));
+}
+
+.scrolly-hero__container {
+  max-width: 800px;
+}
+
+.scrolly-hero__title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  margin-bottom: var(--space-md);
+  color: var(--color-text);
+}
+
+.scrolly-hero__subtitle {
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  color: #666;
+  margin: 0;
+}
+
+/* ============================================
+   Scrollytelling Container
+   ============================================ */
+.main--scrollytelling {
+  padding: 0;
+}
+
+.scrolly-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: var(--space-2xl) var(--space-md);
+}
+
+/* ============================================
+   Scrollytelling Sections
+   ============================================ */
+.scrolly-section {
+  margin-bottom: var(--space-2xl);
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.scrolly-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scrolly-section__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+  align-items: start;
+  min-height: 70vh;
+}
+
+.scrolly-section__text {
+  padding: var(--space-xl) 0;
+}
+
+.scrolly-section__text h2 {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  margin-bottom: var(--space-lg);
+  color: var(--color-text);
+}
+
+.scrolly-section__text p {
+  margin-bottom: var(--space-md);
+  line-height: 1.8;
+  color: var(--color-text);
+}
+
+.scrolly-section__lead {
+  font-size: 1.25rem;
+  font-style: italic;
+  color: var(--color-accent-1);
+  border-left: 4px solid var(--color-accent-1);
+  padding-left: var(--space-md);
+  margin-bottom: var(--space-lg) !important;
+}
+
+.scrolly-section__author {
+  font-style: italic;
+  color: #666;
+  margin-top: var(--space-xl) !important;
+  text-align: right;
+}
+
+/* ============================================
+   Sticky Images
+   ============================================ */
+.scrolly-section__image {
+  position: sticky;
+  top: 100px;
+  height: fit-content;
+}
+
+.scrolly-section__image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  border: 3px solid var(--color-text);
+}
+
+.scrolly-section__caption {
+  margin-top: var(--space-md);
+  font-size: 0.875rem;
+  color: #666;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* ============================================
+   Alternating Layout
+   ============================================ */
+.scrolly-section:nth-child(even) .scrolly-section__content {
+  grid-template-columns: 1fr 1fr;
+}
+
+.scrolly-section:nth-child(even) .scrolly-section__text {
+  order: 2;
+}
+
+.scrolly-section:nth-child(even) .scrolly-section__image {
+  order: 1;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 1024px) {
+  .scrolly-section__content {
+    gap: var(--space-xl);
+  }
+  
+  .scrolly-section__image {
+    top: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .scrolly-hero {
+    min-height: 40vh;
+    padding: var(--space-xl) var(--space-md);
+  }
+  
+  .scrolly-container {
+    padding: var(--space-xl) var(--space-md);
+  }
+  
+  .scrolly-section {
+    margin-bottom: var(--space-xl);
+  }
+  
+  .scrolly-section__content {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+    min-height: auto;
+  }
+  
+  .scrolly-section__text {
+    padding: 0;
+  }
+  
+  .scrolly-section__image {
+    position: relative;
+    top: 0;
+  }
+  
+  /* Reset alternating layout on mobile */
+  .scrolly-section:nth-child(even) .scrolly-section__content {
+    grid-template-columns: 1fr;
+  }
+  
+  .scrolly-section:nth-child(even) .scrolly-section__text {
+    order: 1;
+  }
+  
+  .scrolly-section:nth-child(even) .scrolly-section__image {
+    order: 2;
+  }
+}

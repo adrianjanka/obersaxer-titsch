@@ -82,7 +82,7 @@
 .nav__menu {
   display: flex;
   align-items: center;
-  gap: var(--space-lg);
+  gap: var(--space-md);
   list-style: none;
 }
 
@@ -102,7 +102,7 @@
   cursor: pointer;
   transition: color var(--transition-fast);
   font-family: var(--font-body);
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 .nav__link:hover,
@@ -148,7 +148,6 @@
   min-width: 220px;
   background-color: var(--color-bg);
   border: 2px solid var(--color-text);
-  border-radius: var(--radius-sm);
   box-shadow: var(--shadow-md);
   list-style: none;
   padding: var(--space-xs);

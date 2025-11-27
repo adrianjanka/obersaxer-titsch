@@ -13,6 +13,18 @@ let filteredWords = [...words];
 let filteredPhrases = [...phrases];
 
 /**
+ * Shuffle array using Fisher-Yates algorithm
+ */
+function shuffleArray(array) {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
+
+/**
  * Render a single card
  */
 function renderCard(item) {
@@ -105,19 +117,32 @@ export function updateFilteredPhrases(sortedPhrases) {
  * Initialize card renderer
  */
 export function initCardRenderer() {
-  // Initial render
-  renderWeerter(false);
-  renderRedewendiga(false);
+  // Check if we're on the homepage or dedicated pages
+  const isHomepage = document.body.classList.contains('page-home') || 
+                     (!document.body.classList.contains('page-weerter') && 
+                      !document.body.classList.contains('page-redewendiga'));
   
-  // Load more buttons
-  const loadMoreWeerterBtn = document.getElementById('load-more-weerter');
-  const loadMoreRedewendigaBtn = document.getElementById('load-more-redewendiga');
-  
-  if (loadMoreWeerterBtn) {
-    loadMoreWeerterBtn.addEventListener('click', () => renderWeerter(true));
-  }
-  
-  if (loadMoreRedewendigaBtn) {
-    loadMoreRedewendigaBtn.addEventListener('click', () => renderRedewendiga(true));
+  if (isHomepage) {
+    // Homepage: Show 9 random cards, no load more button
+    filteredWords = shuffleArray(words).slice(0, 9);
+    filteredPhrases = shuffleArray(phrases).slice(0, 9);
+    renderWeerter(false);
+    renderRedewendiga(false);
+  } else {
+    // Dedicated pages: Show all cards with pagination
+    renderWeerter(false);
+    renderRedewendiga(false);
+    
+    // Load more buttons (only on dedicated pages)
+    const loadMoreWeerterBtn = document.getElementById('load-more-weerter');
+    const loadMoreRedewendigaBtn = document.getElementById('load-more-redewendiga');
+    
+    if (loadMoreWeerterBtn) {
+      loadMoreWeerterBtn.addEventListener('click', () => renderWeerter(true));
+    }
+    
+    if (loadMoreRedewendigaBtn) {
+      loadMoreRedewendigaBtn.addEventListener('click', () => renderRedewendiga(true));
+    }
   }
 }

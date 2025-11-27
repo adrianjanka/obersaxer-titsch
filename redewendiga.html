@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Obersàxer Titsch</title>
+  <title>Alli Redewendiga – Obersàxer Titsch</title>
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,6 @@
   <!-- CSS -->
   <link rel="stylesheet" href="assets/css/main.css">
   <link rel="stylesheet" href="assets/css/navigation.css">
-  <link rel="stylesheet" href="assets/css/hero.css">
-  <link rel="stylesheet" href="assets/css/carousel.css">
   <link rel="stylesheet" href="assets/css/cards.css">
   <link rel="stylesheet" href="assets/css/background.css">
   <link rel="stylesheet" href="assets/css/animations.css">
@@ -24,7 +22,7 @@
   <!-- Favicon -->
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 </head>
-<body>
+<body class="page-redewendiga">
   <!-- Animated background dots -->
   <div id="background-dots" class="background-dots"></div>
 
@@ -46,7 +44,7 @@
           <a href="weerter.html" class="nav__link">Weerter</a>
         </li>
         <li class="nav__item">
-          <a href="redewendiga.html" class="nav__link">Redewendiga</a>
+          <a href="redewendiga.html" class="nav__link nav__link--active">Redewendiga</a>
         </li>
         <li class="nav__item nav__item--dropdown">
           <button class="nav__link nav__dropdown-toggle" aria-expanded="false">
@@ -65,110 +63,40 @@
     </nav>
   </header>
 
-  <!-- Hero Section: Word of the Day -->
-  <section class="hero" id="hero">
-    <div class="hero__container">
-      <h2 class="section__title hero__title">Wort vom Tàg</h2>
-      <div class="hero__card-wrapper">
-        <div class="hero__card" id="hero-card">
-          <!-- Rendered by word-of-the-day.js -->
-        </div>
-      </div>
-      <a href="#intro-section" class="hero__scroll-hint" aria-label="Nach unten scrollen">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
-    </div>
-  </section>
-
-  <!-- Word Carousel -->
-  <!-- <section class="carousel" id="carousel">
-    <div class="carousel__container">
-      <h2 class="carousel__title">Meh Weerter</h2>
-      
-      <div class="carousel__wrapper">
-        <button class="carousel__btn carousel__btn--prev" id="carousel-prev" aria-label="Vorherige Wörter">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M15 18L9 12L15 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </button>
-        
-        <div class="carousel__track" id="carousel-track">
-          Rendered by carousel.js
-        </div>
-        
-        <button class="carousel__btn carousel__btn--next" id="carousel-next" aria-label="Nächste Wörter">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-            <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          </svg>
-        </button>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- Introduction to Background Knowledge -->
-  <section class="intro-section" id="intro-section">
-    <div class="intro-section__container">
-      <h2 class="intro-section__title">Hintergrundwissen</h2>
-      <p class="intro-section__text">
-        Erfahre mehr über die Geschichte, Besonderheiten und Aussprache des Obersaxer Titsch
-      </p>
-      <div class="intro-section__links">
-        <a href="geschichte.html" class="intro-section__card">
-          <h3>Zur Geschichte</h3>
-          <p>Wie der Dialekt entstanden ist</p>
-        </a>
-        <a href="sprache.html" class="intro-section__card">
-          <h3>Zur Sprache</h3>
-          <p>Besonderheiten und Einflüsse</p>
-        </a>
-        <a href="aussprache.html" class="intro-section__card">
-          <h3>Aussprache und Schreibweise</h3>
-          <p>Tipps zur richtigen Aussprache</p>
-        </a>
-      </div>
-      <a href="#weerter-section" class="intro-section__scroll-hint" aria-label="Zu den Weerter">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
-    </div>
-  </section>
-
-  <!-- Main Content: Weerter & Redewendiga -->
-  <main class="main" id="main">
+  <!-- Main Content -->
+  <main class="main main--page" id="main">
     
-    <!-- Weerter Section -->
-    <section class="cards-section" id="weerter-section">
-      <div class="cards-section__container">
-        <h1 class="cards-section__title">Weerter</h1>
-
-        <!-- Cards Grid -->
-        <div class="cards-grid" id="cards-grid-weerter">
-          <!-- Rendered by card-renderer.js -->
-        </div>
-
-        <!-- View All Button -->
-        <div class="load-more-container">
-          <a href="weerter.html" class="btn btn--primary">Alli Weerter</a>
-        </div>
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="page-header__container">
+        <h1 class="page-header__title">Alli Redewendiga</h1>
       </div>
     </section>
 
     <!-- Redewendiga Section -->
     <section class="cards-section" id="redewendiga-section">
       <div class="cards-section__container">
-        <h1 class="cards-section__title">Redewendiga</h1>
+        
+        <!-- Sort Bar -->
+        <div class="sort-bar" id="sort-bar-redewendiga">
+          <div class="sort-bar__group">
+            <label for="sort-redewendiga" class="sort-bar__label">Sortieren:</label>
+            <select id="sort-redewendiga" class="sort-bar__select">
+              <option value="dialect-az">A-Z (Dialekt)</option>
+              <option value="german-az">A-Z (Hochdeutsch)</option>
+              <option value="newest">Neueste zuerst</option>
+            </select>
+          </div>
+        </div>
 
         <!-- Cards Grid -->
         <div class="cards-grid" id="cards-grid-redewendiga">
           <!-- Rendered by card-renderer.js -->
         </div>
 
-        <!-- View All Button -->
+        <!-- Load More Button -->
         <div class="load-more-container">
-          <a href="redewendiga.html" class="btn btn--primary">Alli Redewendiga</a>
+          <button class="btn btn--primary" id="load-more-redewendiga">Meh Redewendiga</button>
         </div>
       </div>
     </section>
@@ -180,10 +108,10 @@
     <div class="footer__container">
       <div class="footer__main">
         <div class="footer__brand">
-          <img src="img/Logo_beige.svg" alt="Obersàxer Titsch Logo" class="footer__logo">
+          <img src="img/Logo.svg" alt="Obersàxer Titsch Logo" class="footer__logo">
           <p class="footer__description">
-            Inschi Sprààch, ds Obersàxer Titsch<br> 
-            <i>Digitale Obersaxer Wörtersammlung mit Hintergrundwissen.</i>
+            Digitales Wörterbuch des Obersaxer Dialekts – 
+            eine der ältesten und eigenständigsten Mundarten der Schweiz.
           </p>
         </div>
         
@@ -207,7 +135,7 @@
           </div>
           
           <div class="footer__column">
-            <h3 class="footer__heading">Instagram</h3>
+            <h3 class="footer__heading">Folg üs</h3>
             <div class="footer__social">
               <a href="https://instagram.com/obersaxer.titsch" target="_blank" rel="noopener noreferrer" class="footer__social-link" aria-label="Instagram">
                 <img src="img/instalogo.png" alt="Instagram" width="24" height="24">
