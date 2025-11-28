@@ -57,7 +57,7 @@ export const words = [
     folder: "cards/azinnta",
     frontImage: "azinnta.jpg",
     backImage: "azinnta2.jpg",
-    germanWord: "",
+    germanWord: "Feuer anzünden",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -67,7 +67,7 @@ export const words = [
     folder: "cards/baaba",
     frontImage: "baaba.jpg",
     backImage: "baaba2.jpg",
-    germanWord: "",
+    germanWord: "einfältige Frau",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -87,7 +87,7 @@ export const words = [
     folder: "cards/bara_lugi",
     frontImage: "bara_lugi.jpg",
     backImage: "bara_lugi2.jpg",
-    germanWord: "",
+    germanWord: "voll Lüge",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -97,7 +97,7 @@ export const words = [
     folder: "cards/bassma",
     frontImage: "bassma.jpg",
     backImage: "bassma2.jpg",
-    germanWord: "Hexe",
+    germanWord: "der Besen",
     category: "noun",
     tags: ["traditions"],
     addedAt: "2024-01-01"
@@ -107,7 +107,7 @@ export const words = [
     folder: "cards/blaaw",
     frontImage: "blaaw.jpg",
     backImage: "blaaw2.jpg",
-    germanWord: "",
+    germanWord: "blau",
     category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
@@ -117,7 +117,7 @@ export const words = [
     folder: "cards/britschi",
     frontImage: "britschi.jpg",
     backImage: "britschi2.jpg",
-    germanWord: "Brett",
+    germanWord: "Butter",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -127,7 +127,7 @@ export const words = [
     folder: "cards/busara",
     frontImage: "busara.jpg",
     backImage: "busara2.jpg",
-    germanWord: "",
+    germanWord: "schlecht arbeiten",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -147,7 +147,7 @@ export const words = [
     folder: "cards/chiffla",
     frontImage: "chiffla.jpg",
     backImage: "chiffla2.jpg",
-    germanWord: "",
+    germanWord: "streiten",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -167,7 +167,7 @@ export const words = [
     folder: "cards/chnaba",
     frontImage: "chnaba.jpg",
     backImage: "chnaba2.jpg",
-    germanWord: "",
+    germanWord: "Jungmänner",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -177,7 +177,7 @@ export const words = [
     folder: "cards/chnauw",
     frontImage: "chnauw.jpg",
     backImage: "chnauw2.jpg",
-    germanWord: "Junge",
+    germanWord: "knie",
     category: "noun",
     tags: ["people"],
     addedAt: "2024-01-01"
@@ -207,7 +207,7 @@ export const words = [
     folder: "cards/diraab",
     frontImage: "diraab.jpg",
     backImage: "diraab2.jpg",
-    germanWord: "",
+    germanWord: "hinunter",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -217,7 +217,7 @@ export const words = [
     folder: "cards/dirii",
     frontImage: "dirii.jpg",
     backImage: "dirii2.jpg",
-    germanWord: "",
+    germanWord: "einwärts",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -227,7 +227,7 @@ export const words = [
     folder: "cards/dirüss",
     frontImage: "dirüss.jpg",
     backImage: "dirüss2.jpg",
-    germanWord: "",
+    germanWord: "auswärts",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -237,7 +237,7 @@ export const words = [
     folder: "cards/eeni",
     frontImage: "eeni.jpg",
     backImage: "eeni2.jpg",
-    germanWord: "Großvater",
+    germanWord: "Grossvater",
     category: "noun",
     tags: ["family"],
     addedAt: "2024-01-01"
@@ -247,7 +247,7 @@ export const words = [
     folder: "cards/faara",
     frontImage: "faara.jpg",
     backImage: "faara2.jpg",
-    germanWord: "",
+    germanWord: "fahren",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -257,7 +257,7 @@ export const words = [
     folder: "cards/feppla",
     frontImage: "feppla.jpg",
     backImage: "feppla2.jpg",
-    germanWord: "",
+    germanWord: "foppen",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -267,7 +267,7 @@ export const words = [
     folder: "cards/figglar",
     frontImage: "figglar.jpg",
     backImage: "figglar2.jpg",
-    germanWord: "",
+    germanWord: "leicht gebaute hütte",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -277,7 +277,7 @@ export const words = [
     folder: "cards/füül",
     frontImage: "füül.jpg",
     backImage: "füül2.jpg",
-    germanWord: "",
+    germanWord: "faul",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -297,7 +297,7 @@ export const words = [
     folder: "cards/gauma",
     frontImage: "gauma.jpg",
     backImage: "gauma2.jpg",
-    germanWord: "",
+    germanWord: "kinder hüten",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -307,7 +307,7 @@ export const words = [
     folder: "cards/geefarli",
     frontImage: "geefarli.jpg",
     backImage: "geefarli2.jpg",
-    germanWord: "",
+    germanWord: "dünne schicht schnee",
     category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
@@ -317,7 +317,7 @@ export const words = [
     folder: "cards/ggana",
     frontImage: "ggana.jpg",
     backImage: "ggana2.jpg",
-    germanWord: "Gehen",
+    germanWord: "spazierstock",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -327,7 +327,7 @@ export const words = [
     folder: "cards/gginggal",
     frontImage: "gginggal.jpg",
     backImage: "gginggal2.jpg",
-    germanWord: "Kind",
+    germanWord: "kaninchen",
     category: "noun",
     tags: ["people"],
     addedAt: "2024-01-01"
@@ -337,7 +337,7 @@ export const words = [
     folder: "cards/ggragga",
     frontImage: "ggragga.jpg",
     backImage: "ggragga2.jpg",
-    germanWord: "Kragen",
+    germanWord: "krähe",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -347,7 +347,7 @@ export const words = [
     folder: "cards/gguttar",
     frontImage: "gguttar.jpg",
     backImage: "gguttar2.jpg",
-    germanWord: "Pate",
+    germanWord: "flasche",
     category: "noun",
     tags: ["family"],
     addedAt: "2024-01-01"
@@ -357,7 +357,7 @@ export const words = [
     folder: "cards/griina",
     frontImage: "griina.jpg",
     backImage: "griina2.jpg",
-    germanWord: "",
+    germanWord: "weinen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -367,7 +367,7 @@ export const words = [
     folder: "cards/gschwenta",
     frontImage: "gschwenta.jpg",
     backImage: "gschwenta2.jpg",
-    germanWord: "",
+    germanWord: "roden",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -387,7 +387,7 @@ export const words = [
     folder: "cards/heitamaija",
     frontImage: "heitamaija.jpg",
     backImage: "heitamaija2.jpg",
-    germanWord: "Marienkäfer",
+    germanWord: "alpenrosen",
     category: "noun",
     tags: ["animals", "nature"],
     addedAt: "2024-01-01"
@@ -397,7 +397,7 @@ export const words = [
     folder: "cards/hiissli",
     frontImage: "hiissli.jpg",
     backImage: "hiissli2.jpg",
-    germanWord: "Haus",
+    germanWord: "toilette",
     category: "noun",
     tags: ["places"],
     addedAt: "2024-01-01"
@@ -407,7 +407,7 @@ export const words = [
     folder: "cards/hinat",
     frontImage: "hinat.jpg",
     backImage: "hinat2.jpg",
-    germanWord: "",
+    germanWord: "heute abend",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -417,7 +417,7 @@ export const words = [
     folder: "cards/hipschli",
     frontImage: "hipschli.jpg",
     backImage: "hipschli2.jpg",
-    germanWord: "",
+    germanWord: "leise",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -427,7 +427,7 @@ export const words = [
     folder: "cards/hooraschlita",
     frontImage: "hooraschlita.jpg",
     backImage: "hooraschlita2.jpg",
-    germanWord: "",
+    germanWord: "hornschlitten",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -437,7 +437,7 @@ export const words = [
     folder: "cards/hung",
     frontImage: "hung.jpg",
     backImage: "hung2.jpg",
-    germanWord: "Hund",
+    germanWord: "konfitüre",
     category: "noun",
     tags: ["animals"],
     addedAt: "2024-01-01"
@@ -457,7 +457,7 @@ export const words = [
     folder: "cards/iinapsa",
     frontImage: "iinapsa.jpg",
     backImage: "iinapsa2.jpg",
-    germanWord: "",
+    germanWord: "eindösen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -467,7 +467,7 @@ export const words = [
     folder: "cards/jumpfara",
     frontImage: "jumpfara.jpg",
     backImage: "jumpfara2.jpg",
-    germanWord: "",
+    germanWord: "Jungfrau",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -477,7 +477,7 @@ export const words = [
     folder: "cards/kalfaktar",
     frontImage: "kalfaktar.jpg",
     backImage: "kalfaktar2.jpg",
-    germanWord: "",
+    germanWord: "frecher Mensch",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -487,7 +487,7 @@ export const words = [
     folder: "cards/leew",
     frontImage: "leew.jpg",
     backImage: "leew2.jpg",
-    germanWord: "",
+    germanWord: "lauwarm",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -497,7 +497,7 @@ export const words = [
     folder: "cards/leiga",
     frontImage: "leiga.jpg",
     backImage: "leiga2.jpg",
-    germanWord: "",
+    germanWord: "lügen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -507,7 +507,7 @@ export const words = [
     folder: "cards/maalti",
     frontImage: "maalti.jpg",
     backImage: "maalti2.jpg",
-    germanWord: "",
+    germanWord: "mahlzeit",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -517,7 +517,7 @@ export const words = [
     folder: "cards/maija",
     frontImage: "maija.jpg",
     backImage: "maija2.jpg",
-    germanWord: "Mädchen",
+    germanWord: "blumen",
     category: "noun",
     tags: ["people"],
     addedAt: "2024-01-01"
@@ -527,7 +527,7 @@ export const words = [
     folder: "cards/malüüra",
     frontImage: "malüüra.jpg",
     backImage: "malüüra2.jpg",
-    germanWord: "",
+    germanWord: "kaputt",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -537,7 +537,7 @@ export const words = [
     folder: "cards/marand",
     frontImage: "marand.jpg",
     backImage: "marand2.jpg",
-    germanWord: "Nachmittag",
+    germanWord: "zwischenverpflegung",
     category: "noun",
     tags: ["time"],
     addedAt: "2024-01-01"
@@ -547,7 +547,7 @@ export const words = [
     folder: "cards/minni",
     frontImage: "minni.jpg",
     backImage: "minni2.jpg",
-    germanWord: "",
+    germanWord: "katze",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -567,7 +567,7 @@ export const words = [
     folder: "cards/narrabei",
     frontImage: "narrabei.jpg",
     backImage: "narrabei2.jpg",
-    germanWord: "",
+    germanWord: "empfindlichste stelle an Ellbogen",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -577,7 +577,7 @@ export const words = [
     folder: "cards/niana",
     frontImage: "niana.jpg",
     backImage: "niana2.jpg",
-    germanWord: "",
+    germanWord: "nirgends",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -587,7 +587,7 @@ export const words = [
     folder: "cards/niit",
     frontImage: "niit.jpg",
     backImage: "niit2.jpg",
-    germanWord: "",
+    germanWord: "nichts",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -597,7 +597,7 @@ export const words = [
     folder: "cards/nitla",
     frontImage: "nitla.jpg",
     backImage: "nitla2.jpg",
-    germanWord: "Sahne",
+    germanWord: "rahm",
     category: "noun",
     tags: ["food"],
     addedAt: "2024-01-01"
@@ -617,7 +617,7 @@ export const words = [
     folder: "cards/oorna",
     frontImage: "oorna.jpg",
     backImage: "oorna2.jpg",
-    germanWord: "",
+    germanWord: "ordnung machen",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -627,7 +627,7 @@ export const words = [
     folder: "cards/paader",
     frontImage: "paader.jpg",
     backImage: "paader2.jpg",
-    germanWord: "",
+    germanWord: "pader",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -637,7 +637,7 @@ export const words = [
     folder: "cards/patschiffig",
     frontImage: "patschiffig.jpg",
     backImage: "patschiffig2.jpg",
-    germanWord: "",
+    germanWord: "gemütlich",
     category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
@@ -657,7 +657,7 @@ export const words = [
     folder: "cards/pijihung",
     frontImage: "pijihung.jpg",
     backImage: "pijihung2.jpg",
-    germanWord: "",
+    germanWord: "Bienenhonig",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -667,7 +667,7 @@ export const words = [
     folder: "cards/pilvara",
     frontImage: "pilvara.jpg",
     backImage: "pilvara2.jpg",
-    germanWord: "",
+    germanWord: "schiessen",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -677,7 +677,7 @@ export const words = [
     folder: "cards/pitschgi",
     frontImage: "pitschgi.jpg",
     backImage: "pitschgi2.jpg",
-    germanWord: "Kerngehäuse",
+    germanWord: "obst-kerngehäuse",
     category: "noun",
     tags: ["food"],
     addedAt: "2024-01-01"
@@ -687,7 +687,7 @@ export const words = [
     folder: "cards/pitta",
     frontImage: "pitta.jpg",
     backImage: "pitta2.jpg",
-    germanWord: "",
+    germanWord: "kuchen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -697,7 +697,7 @@ export const words = [
     folder: "cards/plaubari",
     frontImage: "plaubari.jpg",
     backImage: "plaubari2.jpg",
-    germanWord: "",
+    germanWord: "heidelbeeren",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -707,7 +707,7 @@ export const words = [
     folder: "cards/pop",
     frontImage: "pop.jpg",
     backImage: "pop2.jpg",
-    germanWord: "",
+    germanWord: "säugling",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -717,7 +717,7 @@ export const words = [
     folder: "cards/propi",
     frontImage: "propi.jpg",
     backImage: "propi2.jpg",
-    germanWord: "",
+    germanWord: "ziemlich",
     category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
@@ -727,7 +727,7 @@ export const words = [
     folder: "cards/rangg",
     frontImage: "rangg.jpg",
     backImage: "rangg2.jpg",
-    germanWord: "Rücken",
+    germanWord: "strassenkehre",
     category: "noun",
     tags: ["body"],
     addedAt: "2024-01-01"
@@ -737,7 +737,7 @@ export const words = [
     folder: "cards/regenta",
     frontImage: "regenta.jpg",
     backImage: "regenta2.jpg",
-    germanWord: "",
+    germanWord: "befehlen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -747,7 +747,7 @@ export const words = [
     folder: "cards/repla",
     frontImage: "repla.jpg",
     backImage: "repla2.jpg",
-    germanWord: "",
+    germanWord: "klettern",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -767,7 +767,7 @@ export const words = [
     folder: "cards/saaja",
     frontImage: "saaja.jpg",
     backImage: "saaja2.jpg",
-    germanWord: "",
+    germanWord: "säen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -777,7 +777,7 @@ export const words = [
     folder: "cards/sackrappa",
     frontImage: "sackrappa.jpg",
     backImage: "sackrappa2.jpg",
-    germanWord: "",
+    germanWord: "Sackgeld",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -797,7 +797,7 @@ export const words = [
     folder: "cards/samachlaas",
     frontImage: "samachlaas.jpg",
     backImage: "samachlaas2.jpg",
-    germanWord: "",
+    germanWord: "St.Nikolaus",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -807,7 +807,7 @@ export const words = [
     folder: "cards/schachla",
     frontImage: "schachla.jpg",
     backImage: "schachla2.jpg",
-    germanWord: "",
+    germanWord: "lachen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -817,7 +817,7 @@ export const words = [
     folder: "cards/scheita",
     frontImage: "scheita.jpg",
     backImage: "scheita2.jpg",
-    germanWord: "",
+    germanWord: "Holzspähe",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -827,7 +827,7 @@ export const words = [
     folder: "cards/schetz",
     frontImage: "schetz.jpg",
     backImage: "schetz2.jpg",
-    germanWord: "",
+    germanWord: "schoss",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -837,7 +837,7 @@ export const words = [
     folder: "cards/schgaffa",
     frontImage: "schgaffa.jpg",
     backImage: "schgaffa2.jpg",
-    germanWord: "",
+    germanWord: "Schrank",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -847,7 +847,7 @@ export const words = [
     folder: "cards/schgarnutz",
     frontImage: "schgarnutz.jpg",
     backImage: "schgarnutz2.jpg",
-    germanWord: "",
+    germanWord: "papiersack",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -857,7 +857,7 @@ export const words = [
     folder: "cards/schigg",
     frontImage: "schigg.jpg",
     backImage: "schigg2.jpg",
-    germanWord: "",
+    germanWord: "Kautabak / Snus",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -877,7 +877,7 @@ export const words = [
     folder: "cards/schlonja",
     frontImage: "schlonja.jpg",
     backImage: "schlonja2.jpg",
-    germanWord: "",
+    germanWord: "kauen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -887,7 +887,7 @@ export const words = [
     folder: "cards/schnafali",
     frontImage: "schnafali.jpg",
     backImage: "schnafali2.jpg",
-    germanWord: "",
+    germanWord: "kleiner dünngeschnittenes Stück",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -897,7 +897,7 @@ export const words = [
     folder: "cards/schnija",
     frontImage: "schnija.jpg",
     backImage: "schnija2.jpg",
-    germanWord: "",
+    germanWord: "schneien",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -917,7 +917,7 @@ export const words = [
     folder: "cards/schora",
     frontImage: "schora.jpg",
     backImage: "schora2.jpg",
-    germanWord: "",
+    germanWord: "schnee schaufeln",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -927,7 +927,7 @@ export const words = [
     folder: "cards/schüuwa",
     frontImage: "schüuwa.jpg",
     backImage: "schüuwa2.jpg",
-    germanWord: "Scheune",
+    germanWord: "Schuhe",
     category: "noun",
     tags: ["places", "work"],
     addedAt: "2024-01-01"
@@ -937,7 +937,7 @@ export const words = [
     folder: "cards/schwetti",
     frontImage: "schwetti.jpg",
     backImage: "schwetti2.jpg",
-    germanWord: "",
+    germanWord: "eine menge",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -947,7 +947,7 @@ export const words = [
     folder: "cards/schwiifigglar",
     frontImage: "schwiifigglar.jpg",
     backImage: "schwiifigglar2.jpg",
-    germanWord: "",
+    germanWord: "schweineunterstand",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -957,7 +957,7 @@ export const words = [
     folder: "cards/schwiimaija",
     frontImage: "schwiimaija.jpg",
     backImage: "schwiimaija2.jpg",
-    germanWord: "",
+    germanWord: "Löwenzahn",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -967,7 +967,7 @@ export const words = [
     folder: "cards/spaat",
     frontImage: "spaat.jpg",
     backImage: "spaat2.jpg",
-    germanWord: "",
+    germanWord: "spät",
     category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
@@ -977,7 +977,7 @@ export const words = [
     folder: "cards/spargamenti",
     frontImage: "spargamenti.jpg",
     backImage: "spargamenti2.jpg",
-    germanWord: "",
+    germanWord: "faxen machen",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -987,7 +987,7 @@ export const words = [
     folder: "cards/spinnawuppa",
     frontImage: "spinnawuppa.jpg",
     backImage: "spinnawuppa2.jpg",
-    germanWord: "Spinne",
+    germanWord: "Spinnennetz",
     category: "noun",
     tags: ["animals"],
     addedAt: "2024-01-01"
@@ -997,7 +997,7 @@ export const words = [
     folder: "cards/sturna",
     frontImage: "sturna.jpg",
     backImage: "sturna2.jpg",
-    germanWord: "",
+    germanWord: "zwängeln",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1007,7 +1007,7 @@ export const words = [
     folder: "cards/süüfa",
     frontImage: "süüfa.jpg",
     backImage: "süüfa2.jpg",
-    germanWord: "",
+    germanWord: "trinken",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1027,7 +1027,7 @@ export const words = [
     folder: "cards/teisch",
     frontImage: "teisch.jpg",
     backImage: "teisch2.jpg",
-    germanWord: "",
+    germanWord: "kuhfladen",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1047,7 +1047,7 @@ export const words = [
     folder: "cards/trinscha",
     frontImage: "trinscha.jpg",
     backImage: "trinscha2.jpg",
-    germanWord: "",
+    germanWord: "stöhnen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1057,7 +1057,7 @@ export const words = [
     folder: "cards/trogg",
     frontImage: "trogg.jpg",
     backImage: "trogg2.jpg",
-    germanWord: "Trog",
+    germanWord: "Brunnen",
     category: "noun",
     tags: ["work"],
     addedAt: "2024-01-01"
@@ -1067,7 +1067,7 @@ export const words = [
     folder: "cards/tschiggi",
     frontImage: "tschiggi.jpg",
     backImage: "tschiggi2.jpg",
-    germanWord: "",
+    germanWord: "Ferkel",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1077,7 +1077,7 @@ export const words = [
     folder: "cards/tschungga",
     frontImage: "tschungga.jpg",
     backImage: "tschungga2.jpg",
-    germanWord: "Zunge",
+    germanWord: "Schinken",
     category: "noun",
     tags: ["body"],
     addedAt: "2024-01-01"
@@ -1087,7 +1087,7 @@ export const words = [
     folder: "cards/tüuwa",
     frontImage: "tüuwa.jpg",
     backImage: "tüuwa2.jpg",
-    germanWord: "",
+    germanWord: "tun",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1097,7 +1097,7 @@ export const words = [
     folder: "cards/uacha",
     frontImage: "uacha.jpg",
     backImage: "uacha2.jpg",
-    germanWord: "",
+    germanWord: "herauf",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1107,7 +1107,7 @@ export const words = [
     folder: "cards/ubaranni_si",
     frontImage: "ubaranni_si.jpg",
     backImage: "ubaranni_si2.jpg",
-    germanWord: "",
+    germanWord: "eingeschlafen sein",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1117,7 +1117,7 @@ export const words = [
     folder: "cards/umma_si",
     frontImage: "umma_si.jpg",
     backImage: "umma_si2.jpg",
-    germanWord: "",
+    germanWord: "da sein",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1127,7 +1127,7 @@ export const words = [
     folder: "cards/undar_si",
     frontImage: "undar_si.jpg",
     backImage: "undar_si2.jpg",
-    germanWord: "",
+    germanWord: "im bett sein",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1137,7 +1137,7 @@ export const words = [
     folder: "cards/ütar",
     frontImage: "ütar.jpg",
     backImage: "ütar2.jpg",
-    germanWord: "",
+    germanWord: "euter",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1147,7 +1147,7 @@ export const words = [
     folder: "cards/valoch",
     frontImage: "valoch.jpg",
     backImage: "valoch2.jpg",
-    germanWord: "",
+    germanWord: "auf und davon",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1157,7 +1157,7 @@ export const words = [
     folder: "cards/varbreeschmala",
     frontImage: "varbreeschmala.jpg",
     backImage: "varbreeschmala2.jpg",
-    germanWord: "",
+    germanWord: "zerkrümeln",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1167,7 +1167,7 @@ export const words = [
     folder: "cards/varhunza",
     frontImage: "varhunza.jpg",
     backImage: "varhunza2.jpg",
-    germanWord: "",
+    germanWord: "verderben",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1177,7 +1177,7 @@ export const words = [
     folder: "cards/varkumma_heissa",
     frontImage: "varkumma_heissa.jpg",
     backImage: "varkumma_heissa2.jpg",
-    germanWord: "",
+    germanWord: "willkommen heissen",
     category: "expression",
     tags: [],
     addedAt: "2024-01-01"
@@ -1187,7 +1187,7 @@ export const words = [
     folder: "cards/varlocha",
     frontImage: "varlocha.jpg",
     backImage: "varlocha2.jpg",
-    germanWord: "",
+    germanWord: "vergraben",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1197,7 +1197,7 @@ export const words = [
     folder: "cards/virschi",
     frontImage: "virschi.jpg",
     backImage: "virschi2.jpg",
-    germanWord: "",
+    germanWord: "vorwärts",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1207,7 +1207,7 @@ export const words = [
     folder: "cards/voorna",
     frontImage: "voorna.jpg",
     backImage: "voorna2.jpg",
-    germanWord: "",
+    germanWord: "vorne",
     category: "adverb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1217,7 +1217,7 @@ export const words = [
     folder: "cards/vori",
     frontImage: "vori.jpg",
     backImage: "vori2.jpg",
-    germanWord: "",
+    germanWord: "vorhin",
     category: "adverb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1227,7 +1227,7 @@ export const words = [
     folder: "cards/waschgi",
     frontImage: "waschgi.jpg",
     backImage: "waschgi2.jpg",
-    germanWord: "Handschuh",
+    germanWord: "Wespe",
     category: "noun",
     tags: ["clothing"],
     addedAt: "2024-01-01"
@@ -1237,7 +1237,7 @@ export const words = [
     folder: "cards/wiala",
     frontImage: "wiala.jpg",
     backImage: "wiala2.jpg",
-    germanWord: "",
+    germanWord: "graben",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1247,7 +1247,7 @@ export const words = [
     folder: "cards/wiata",
     frontImage: "wiata.jpg",
     backImage: "wiata2.jpg",
-    germanWord: "",
+    germanWord: "wüten",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1257,9 +1257,9 @@ export const words = [
     folder: "cards/wimbari",
     frontImage: "wimbari.jpg",
     backImage: "wimbari2.jpg",
-    germanWord: "Wimper",
+    germanWord: "Weinbeere",
     category: "noun",
-    tags: ["body"],
+    tags: ["fruit"],
     addedAt: "2024-01-01"
   },
   {
@@ -1267,7 +1267,7 @@ export const words = [
     folder: "cards/wind_cho",
     frontImage: "wind_cho.jpg",
     backImage: "wind_cho2.jpg",
-    germanWord: "",
+    germanWord: "erkältet sein",
     category: "expression",
     tags: [],
     addedAt: "2024-01-01"
@@ -1277,7 +1277,7 @@ export const words = [
     folder: "cards/zadal",
     frontImage: "zadal.jpg",
     backImage: "zadal2.jpg",
-    germanWord: "",
+    germanWord: "Blatt Papier",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1287,7 +1287,7 @@ export const words = [
     folder: "cards/zamakija",
     frontImage: "zamakija.jpg",
     backImage: "zamakija2.jpg",
-    germanWord: "",
+    germanWord: "zusammenfallen",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1297,7 +1297,7 @@ export const words = [
     folder: "cards/zangga",
     frontImage: "zangga.jpg",
     backImage: "zangga2.jpg",
-    germanWord: "",
+    germanWord: "streiten",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1307,7 +1307,7 @@ export const words = [
     folder: "cards/zeewa",
     frontImage: "zeewa.jpg",
     backImage: "zeewa2.jpg",
-    germanWord: "Zwiebel",
+    germanWord: "Zehe",
     category: "noun",
     tags: ["food"],
     addedAt: "2024-01-01"
@@ -1317,7 +1317,7 @@ export const words = [
     folder: "cards/ziggla",
     frontImage: "ziggla.jpg",
     backImage: "ziggla2.jpg",
-    germanWord: "",
+    germanWord: "necken",
     category: "noun",
     tags: [],
     addedAt: "2024-01-01"
@@ -1327,7 +1327,7 @@ export const words = [
     folder: "cards/zinnta",
     frontImage: "zinnta.jpg",
     backImage: "zinnta2.jpg",
-    germanWord: "",
+    germanWord: "zünden",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -1337,8 +1337,8 @@ export const words = [
     folder: "cards/zmaal",
     frontImage: "zmaal.jpg",
     backImage: "zmaal2.jpg",
-    germanWord: "",
-    category: "noun",
+    germanWord: "auf einmal",
+    category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1357,7 +1357,7 @@ export const words = [
     folder: "cards/zuu",
     frontImage: "zuu.jpg",
     backImage: "zuu2.jpg",
-    germanWord: "Zehe",
+    germanWord: "zaun",
     category: "noun",
     tags: ["body"],
     addedAt: "2024-01-01"

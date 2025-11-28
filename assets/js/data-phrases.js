@@ -1,6 +1,8 @@
 /**
  * Phrase data model for Obersaxer Titsch (Redewendiga)
  * 
+ * TODO: Check alle germanWords in data-phrases
+ * 
  * To add a new phrase:
  * 1. Create folder: redewendungen/[phrase-name]/
  * 2. Add images: [phrase-name].jpg (front) and [phrase-name]2.jpg (back)
@@ -24,7 +26,7 @@ export const phrases = [
     folder: "redewendungen/redewendung1",
     frontImage: "redewendung1.jpg",
     backImage: "redewendung12.jpg",
-    germanWord: "", // TODO: Add German translation
+    germanWord: "sehr alt",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -34,6 +36,7 @@ export const phrases = [
     folder: "redewendungen/redewendung2",
     frontImage: "redewendung2.jpg",
     backImage: "redewendung22.jpg",
+    germanWord: "alles unordentlich herumliegen lassen",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -43,6 +46,7 @@ export const phrases = [
     folder: "redewendungen/redewendung3",
     frontImage: "redewendung3.jpg",
     backImage: "redewendung32.jpg",
+    germanWord: "etwas aufgeben",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -52,6 +56,7 @@ export const phrases = [
     folder: "redewendungen/redewendung4",
     frontImage: "redewendung4.jpg",
     backImage: "redewendung42.jpg",
+    germanWord: "es geht reibungslos",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -61,6 +66,7 @@ export const phrases = [
     folder: "redewendungen/redewendung5",
     frontImage: "redewendung5.jpg",
     backImage: "redewendung52.jpg",
+    germanWord: "bi diesen ist die Stimmung sehr gereizt",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -70,6 +76,7 @@ export const phrases = [
     folder: "redewendungen/redewendung6",
     frontImage: "redewendung6.jpg",
     backImage: "redewendung62.jpg",
+    germanWord: "bei diesen ist die Stimmung nicht gut",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -79,6 +86,7 @@ export const phrases = [
     folder: "redewendungen/redewendung7",
     frontImage: "redewendung7.jpg",
     backImage: "redewendung72.jpg",
+    germanWord: "sehr startke heftige niederschläge",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -88,6 +96,7 @@ export const phrases = [
     folder: "redewendungen/redewendung8",
     frontImage: "redewendung8.jpg",
     backImage: "redewendung82.jpg",
+    germanWord: "streit haben mit jemandem",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -97,6 +106,7 @@ export const phrases = [
     folder: "redewendungen/redewendung9",
     frontImage: "redewendung9.jpg",
     backImage: "redewendung92.jpg",
+    germanWord: "es pressiert mir nicht besonders",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -106,6 +116,7 @@ export const phrases = [
     folder: "redewendungen/redewendung10",
     frontImage: "redewendung10.jpg",
     backImage: "redewendung102.jpg",
+    germanWord: "hier stimmt etwas nicht mehr",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -115,6 +126,7 @@ export const phrases = [
     folder: "redewendungen/redewendung11",
     frontImage: "redewendung11.jpg",
     backImage: "redewendung112.jpg",
+    germanWord: "das benötigt keinen unterhalt",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -124,6 +136,7 @@ export const phrases = [
     folder: "redewendungen/redewendung12",
     frontImage: "redewendung12.jpg",
     backImage: "redewendung122.jpg",
+    germanWord: "das ist nahrhaft lange sättigende kost",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -133,6 +146,7 @@ export const phrases = [
     folder: "redewendungen/redewendung13",
     frontImage: "redewendung13.jpg",
     backImage: "redewendung132.jpg",
+    germanWord: "die meinung sagen",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -142,6 +156,7 @@ export const phrases = [
     folder: "redewendungen/redewendung14",
     frontImage: "redewendung14.jpg",
     backImage: "redewendung142.jpg",
+    germanWord: "etwas unbesehen kaufen",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"
@@ -151,6 +166,7 @@ export const phrases = [
     folder: "redewendungen/redewendung15",
     frontImage: "redewendung15.jpg",
     backImage: "redewendung152.jpg",
+    germanWord: "das geheimnis lüften",
     category: "expression",
     tags: ["phrase"],
     addedAt: "2024-01-01"

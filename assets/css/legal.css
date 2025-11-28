@@ -1,0 +1,126 @@
+/**
+ * Legal Pages CSS
+ * Styles for Impressum and Datenschutz pages
+ */
+
+/* ============================================
+   Legal Section
+   ============================================ */
+.legal-section {
+  padding: var(--space-2xl) var(--space-md);
+  background: var(--color-bg);
+}
+
+.legal-section__container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ============================================
+   Legal Content
+   ============================================ */
+.legal-content {
+  background: rgba(255, 255, 255, 0.5);
+  padding: var(--space-2xl);
+  box-shadow: var(--shadow-sm);
+  line-height: 1.8;
+}
+
+.legal-content h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-top: var(--space-2xl);
+  margin-bottom: var(--space-lg);
+  color: var(--color-text);
+  border-bottom: 2px solid var(--color-accent-1);
+  padding-bottom: var(--space-sm);
+}
+
+.legal-content h2:first-child {
+  margin-top: 0;
+}
+
+.legal-content h3 {
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem);
+  margin-top: var(--space-xl);
+  margin-bottom: var(--space-md);
+  color: var(--color-text);
+}
+
+.legal-content h4 {
+  font-size: 1.125rem;
+  margin-top: var(--space-lg);
+  margin-bottom: var(--space-sm);
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.legal-content p {
+  margin-bottom: var(--space-md);
+  color: var(--color-text);
+}
+
+.legal-content p:last-child {
+  margin-bottom: 0;
+}
+
+.legal-content ul,
+.legal-content ol {
+  margin-bottom: var(--space-md);
+  padding-left: var(--space-xl);
+}
+
+.legal-content li {
+  margin-bottom: var(--space-xs);
+  color: var(--color-text);
+}
+
+.legal-content a {
+  color: var(--color-accent-1);
+  text-decoration: underline;
+  transition: color var(--transition-base);
+}
+
+.legal-content a:hover {
+  color: var(--color-accent-2);
+}
+
+.legal-content strong {
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.legal-content em {
+  font-style: italic;
+  color: #666;
+}
+
+.legal-content__updated {
+  margin-top: var(--space-2xl);
+  padding-top: var(--space-lg);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 0.875rem;
+  color: #666;
+  text-align: right;
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 768px) {
+  .legal-section {
+    padding: var(--space-xl) var(--space-md);
+  }
+  
+  .legal-content {
+    padding: var(--space-xl) var(--space-md);
+  }
+  
+  .legal-content h2 {
+    margin-top: var(--space-xl);
+  }
+  
+  .legal-content ul,
+  .legal-content ol {
+    padding-left: var(--space-lg);
+  }
+}

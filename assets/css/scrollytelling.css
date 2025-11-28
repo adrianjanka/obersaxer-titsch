@@ -205,6 +205,141 @@
 }
 
 /* ============================================
+   Text-Only Sections (Dynamic Layout)
+   ============================================ */
+.scrolly-section--text-only .scrolly-section__content {
+  display: block;
+  min-height: auto;
+}
+
+.scrolly-section--text-only .scrolly-section__content--center {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.scrolly-section--text-only .scrolly-section__text-box {
+  background: linear-gradient(135deg, rgba(47, 136, 193, 0.03), rgba(134, 102, 162, 0.03));
+  padding: var(--space-2xl);
+  border-left: 4px solid var(--color-accent-1);
+  box-shadow: var(--shadow-sm);
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease 0.2s, transform 0.8s ease 0.2s;
+}
+
+.scrolly-section--text-only.is-visible .scrolly-section__text-box {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scrolly-section--text-only .scrolly-section__text-box h2 {
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  margin-bottom: var(--space-xl);
+  color: var(--color-text);
+  text-align: center;
+}
+
+.scrolly-section--text-only .scrolly-section__text-box h3 {
+  font-size: 1.25rem;
+  color: var(--color-accent-1);
+  margin-bottom: var(--space-sm);
+}
+
+/* Feature Grid for I-Laute */
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-xl);
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg);
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 4px;
+}
+
+.feature-item {
+  text-align: center;
+}
+
+.feature-item h3 {
+  font-size: 1.25rem;
+  margin-bottom: var(--space-sm);
+}
+
+.feature-examples {
+  font-size: 1.125rem;
+  color: var(--color-accent-2);
+  margin: 0 !important;
+}
+
+/* Highlight Box */
+.highlight-box {
+  background: linear-gradient(135deg, rgba(201, 88, 88, 0.08), rgba(242, 156, 80, 0.08));
+  border-left: 4px solid var(--color-accent-2);
+  padding: var(--space-lg);
+  margin: var(--space-xl) 0;
+  font-size: 1.0625rem;
+}
+
+.highlight-box p {
+  margin: 0 !important;
+  line-height: 1.8;
+}
+
+/* Rule List */
+.rule-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+  margin-top: var(--space-xl);
+}
+
+.rule-item {
+  padding: var(--space-md) var(--space-lg);
+  background: rgba(255, 255, 255, 0.5);
+  border-left: 3px solid var(--color-accent-4);
+  transition: all 0.3s ease;
+}
+
+.rule-item:hover {
+  background: rgba(255, 255, 255, 0.8);
+  transform: translateX(8px);
+  box-shadow: var(--shadow-sm);
+}
+
+.rule-item strong {
+  display: block;
+  font-size: 1.125rem;
+  color: var(--color-text);
+  margin-bottom: var(--space-xs);
+}
+
+.rule-item p {
+  margin: var(--space-xs) 0 0 0 !important;
+  color: #555;
+  line-height: 1.7;
+}
+
+.rule-item p:last-child {
+  margin-bottom: 0 !important;
+}
+
+/* Responsive for Text-Only */
+@media (max-width: 768px) {
+  .scrolly-section--text-only .scrolly-section__text-box {
+    padding: var(--space-lg);
+  }
+  
+  .feature-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+  
+  .rule-item:hover {
+    transform: translateX(0);
+  }
+}
+
+/* ============================================
    Scroll to Top Button
    ============================================ */
 .scroll-to-top {
