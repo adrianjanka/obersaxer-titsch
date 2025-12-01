@@ -3,23 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alli Redewendiga – Obersàxer Titsch</title>
+  <title>Siita net gfunda – Obersàxer Titsch</title>
   
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Entdecke typische Obersaxer Redewendungen und ihre Bedeutung. Lerne die bildhafte Sprache des Obersàxer Titsch kennen.">
-  <meta name="keywords" content="Obersaxer Redewendungen, Titsch Ausdrücke, Walser Redensarten, Obersaxer Sprichwörter, Dialekt Redewendungen">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://adrianjanka.ch/obersaxer-titsch/redewendiga.html">
-  <meta property="og:title" content="Alli Redewendiga – Obersàxer Titsch">
-  <meta property="og:description" content="Entdecke typische Obersaxer Redewendungen und ihre Bedeutung.">
-  
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary">
-  <meta property="twitter:url" content="https://adrianjanka.ch/obersaxer-titsch/redewendiga.html">
-  <meta property="twitter:title" content="Alli Redewendiga – Obersàxer Titsch">
-  <meta property="twitter:description" content="Entdecke typische Obersaxer Redewendungen und ihre Bedeutung.">
+  <meta name="description" content="Diese Seite wurde nicht gefunden. Kehre zurück zur Obersaxer Titsch Startseite.">
+  <meta name="robots" content="noindex, nofollow">
   
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,8 +25,41 @@
   
   <!-- Favicon -->
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  
+  <style>
+    .error-container {
+      min-height: calc(100vh - 80px - 200px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .error-message {
+      font-size: 1.25rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      max-width: 600px;
+    }
+
+    @media (max-width: 768px) {
+      .error-title {
+        font-size: 2.5rem;
+      }
+
+      .error-message {
+        font-size: 1.1rem;
+      }
+    }
+  </style>
 </head>
-<body class="page-redewendiga">
+<body>
   <!-- Animated background dots -->
   <div id="background-dots" class="background-dots"></div>
 
@@ -60,7 +81,7 @@
           <a href="weerter.html" class="nav__link">Weerter</a>
         </li>
         <li class="nav__item">
-          <a href="redewendiga.html" class="nav__link nav__link--active">Redewendiga</a>
+          <a href="redewendiga.html" class="nav__link">Redewendiga</a>
         </li>
         <li class="nav__item nav__item--dropdown">
           <button class="nav__link nav__dropdown-toggle" aria-expanded="false">
@@ -78,44 +99,12 @@
     </nav>
   </header>
 
-  <!-- Main Content -->
-  <main class="main main--page" id="main">
-    
-    <!-- Page Header -->
-    <section class="page-header">
-      <div class="page-header__container">
-        <h1 class="page-header__title">Alli Redewendiga</h1>
-      </div>
-    </section>
-
-    <!-- Redewendiga Section -->
-    <section class="cards-section" id="redewendiga-section">
-      <div class="cards-section__container">
-        
-        <!-- Sort Bar -->
-        <div class="sort-bar" id="sort-bar-redewendiga">
-          <div class="sort-bar__group">
-            <label for="sort-redewendiga" class="sort-bar__label">Sortieren:</label>
-            <select id="sort-redewendiga" class="sort-bar__select">
-              <option value="dialect-az">A-Z (Dialekt)</option>
-              <option value="german-az">A-Z (Hochdeutsch)</option>
-              <option value="newest">Neueste zuerst</option>
-            </select>
-          </div>
-        </div>
-
-        <!-- Cards Grid -->
-        <div class="cards-grid" id="cards-grid-redewendiga">
-          <!-- Rendered by card-renderer.js -->
-        </div>
-
-        <!-- Load More Button -->
-        <div class="load-more-container">
-          <button class="btn btn--primary" id="load-more-redewendiga">Meh Redewendiga</button>
-        </div>
-      </div>
-    </section>
-
+  <!-- Error Content -->
+  <main class="error-container">
+    <h1 class="error-title">oocha - dia sita gits ned</h1>
+    <p class="error-message">
+      Dia Siita wo de suechsch ischt niana z finda.
+    </p>
   </main>
 
   <!-- Footer -->
@@ -175,9 +164,44 @@
   <script>
     // Set current year in footer
     document.getElementById('current-year').textContent = new Date().getFullYear();
-  </script>
 
-  <!-- JavaScript Modules -->
+    // Mobile navigation toggle
+    const navToggle = document.getElementById('nav-toggle');
+    const navMenu = document.getElementById('nav-menu');
+
+    if (navToggle) {
+      navToggle.addEventListener('click', () => {
+        navMenu.classList.toggle('nav__menu--active');
+        navToggle.classList.toggle('nav__toggle--active');
+      });
+    }
+
+    // Dropdown functionality
+    const dropdownToggles = document.querySelectorAll('.nav__dropdown-toggle');
+    dropdownToggles.forEach(toggle => {
+      toggle.addEventListener('click', (e) => {
+        e.preventDefault();
+        const parent = toggle.closest('.nav__item--dropdown');
+        parent.classList.toggle('nav__item--active');
+        const isExpanded = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', !isExpanded);
+      });
+    });
+
+    // Background dots animation
+    const backgroundDots = document.getElementById('background-dots');
+    if (backgroundDots) {
+      for (let i = 0; i < 50; i++) {
+        const dot = document.createElement('div');
+        dot.className = 'background-dots__dot';
+        dot.style.left = `${Math.random() * 100}%`;
+        dot.style.top = `${Math.random() * 100}%`;
+        dot.style.animationDelay = `${Math.random() * 3}s`;
+        dot.style.animationDuration = `${3 + Math.random() * 4}s`;
+        backgroundDots.appendChild(dot);
+      }
+    }
+  </script>
   <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>
