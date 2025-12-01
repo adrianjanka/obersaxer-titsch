@@ -38,7 +38,7 @@ export const words = [
     frontImage: "albig.jpg",
     backImage: "albig2.jpg",
     germanWord: "Immer",
-    category: "noun",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -88,7 +88,7 @@ export const words = [
     frontImage: "bara_lugi.jpg",
     backImage: "bara_lugi2.jpg",
     germanWord: "voll Lüge",
-    category: "noun",
+    category: "expression",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -128,7 +128,7 @@ export const words = [
     frontImage: "busara.jpg",
     backImage: "busara2.jpg",
     germanWord: "schlecht arbeiten",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -148,7 +148,7 @@ export const words = [
     frontImage: "chiffla.jpg",
     backImage: "chiffla2.jpg",
     germanWord: "streiten",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -208,7 +208,7 @@ export const words = [
     frontImage: "diraab.jpg",
     backImage: "diraab2.jpg",
     germanWord: "hinunter",
-    category: "verb",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -218,7 +218,7 @@ export const words = [
     frontImage: "dirii.jpg",
     backImage: "dirii2.jpg",
     germanWord: "einwärts",
-    category: "verb",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -228,7 +228,7 @@ export const words = [
     frontImage: "dirüss.jpg",
     backImage: "dirüss2.jpg",
     germanWord: "auswärts",
-    category: "verb",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -258,7 +258,7 @@ export const words = [
     frontImage: "feppla.jpg",
     backImage: "feppla2.jpg",
     germanWord: "foppen",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -278,7 +278,7 @@ export const words = [
     frontImage: "füül.jpg",
     backImage: "füül2.jpg",
     germanWord: "faul",
-    category: "noun",
+    category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -308,7 +308,7 @@ export const words = [
     frontImage: "geefarli.jpg",
     backImage: "geefarli2.jpg",
     germanWord: "dünne schicht schnee",
-    category: "adjective",
+    category: "noun",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -318,7 +318,7 @@ export const words = [
     frontImage: "ggana.jpg",
     backImage: "ggana2.jpg",
     germanWord: "spazierstock",
-    category: "verb",
+    category: "noun",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -408,7 +408,7 @@ export const words = [
     frontImage: "hinat.jpg",
     backImage: "hinat2.jpg",
     germanWord: "heute abend",
-    category: "noun",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -418,7 +418,7 @@ export const words = [
     frontImage: "hipschli.jpg",
     backImage: "hipschli2.jpg",
     germanWord: "leise",
-    category: "noun",
+    category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -488,7 +488,7 @@ export const words = [
     frontImage: "leew.jpg",
     backImage: "leew2.jpg",
     germanWord: "lauwarm",
-    category: "noun",
+    category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -528,7 +528,7 @@ export const words = [
     frontImage: "malüüra.jpg",
     backImage: "malüüra2.jpg",
     germanWord: "kaputt",
-    category: "noun",
+    category: "adjective",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -578,7 +578,7 @@ export const words = [
     frontImage: "niana.jpg",
     backImage: "niana2.jpg",
     germanWord: "nirgends",
-    category: "verb",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -588,7 +588,7 @@ export const words = [
     frontImage: "niit.jpg",
     backImage: "niit2.jpg",
     germanWord: "nichts",
-    category: "noun",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -618,7 +618,7 @@ export const words = [
     frontImage: "oorna.jpg",
     backImage: "oorna2.jpg",
     germanWord: "ordnung machen",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -668,7 +668,7 @@ export const words = [
     frontImage: "pilvara.jpg",
     backImage: "pilvara2.jpg",
     germanWord: "schiessen",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -688,7 +688,7 @@ export const words = [
     frontImage: "pitta.jpg",
     backImage: "pitta2.jpg",
     germanWord: "kuchen",
-    category: "verb",
+    category: "noun",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -818,7 +818,7 @@ export const words = [
     frontImage: "scheita.jpg",
     backImage: "scheita2.jpg",
     germanWord: "Holzspähe",
-    category: "verb",
+    category: "noun",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -838,7 +838,7 @@ export const words = [
     frontImage: "schgaffa.jpg",
     backImage: "schgaffa2.jpg",
     germanWord: "Schrank",
-    category: "verb",
+    category: "noun",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -918,7 +918,7 @@ export const words = [
     frontImage: "schora.jpg",
     backImage: "schora2.jpg",
     germanWord: "schnee schaufeln",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -938,7 +938,7 @@ export const words = [
     frontImage: "schwetti.jpg",
     backImage: "schwetti2.jpg",
     germanWord: "eine menge",
-    category: "noun",
+    category: "expression",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -978,7 +978,7 @@ export const words = [
     frontImage: "spargamenti.jpg",
     backImage: "spargamenti2.jpg",
     germanWord: "faxen machen",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -998,7 +998,7 @@ export const words = [
     frontImage: "sturna.jpg",
     backImage: "sturna2.jpg",
     germanWord: "zwängeln",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1088,7 +1088,7 @@ export const words = [
     frontImage: "tüuwa.jpg",
     backImage: "tüuwa2.jpg",
     germanWord: "tun",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1098,7 +1098,7 @@ export const words = [
     frontImage: "uacha.jpg",
     backImage: "uacha2.jpg",
     germanWord: "herauf",
-    category: "verb",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1148,7 +1148,7 @@ export const words = [
     frontImage: "valoch.jpg",
     backImage: "valoch2.jpg",
     germanWord: "auf und davon",
-    category: "noun",
+    category: "expression",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1198,7 +1198,7 @@ export const words = [
     frontImage: "virschi.jpg",
     backImage: "virschi2.jpg",
     germanWord: "vorwärts",
-    category: "noun",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1268,7 +1268,7 @@ export const words = [
     frontImage: "wind_cho.jpg",
     backImage: "wind_cho2.jpg",
     germanWord: "erkältet sein",
-    category: "expression",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1298,7 +1298,7 @@ export const words = [
     frontImage: "zangga.jpg",
     backImage: "zangga2.jpg",
     germanWord: "streiten",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1318,7 +1318,7 @@ export const words = [
     frontImage: "ziggla.jpg",
     backImage: "ziggla2.jpg",
     germanWord: "necken",
-    category: "noun",
+    category: "verb",
     tags: [],
     addedAt: "2024-01-01"
   },
@@ -1338,7 +1338,7 @@ export const words = [
     frontImage: "zmaal.jpg",
     backImage: "zmaal2.jpg",
     germanWord: "auf einmal",
-    category: "adjective",
+    category: "other",
     tags: [],
     addedAt: "2024-01-01"
   },

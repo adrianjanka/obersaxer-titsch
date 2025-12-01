@@ -1,4 +1,4 @@
-Aussprache und Schreibweise
+Üssprach und Schribwiis
 Die Obersaxer Mundart hebt sich durch besondere Lautmerkmale vom übrigen Walser-deutsch in Graubünden ab. Beispiele: ü wird zu i, ö zu e. Hier heisst es: fiif, filla, Mili; reeschta, leescha, Feena, Eel. An andern Bündner Walserorten sagt man: füüf, fülla, Müli; rööschta, lööscha, Ööl.
 
 Wir zählen uns zu den Westwalsern, und unsere Wurzeln sind im Goms zu suchen. Unser Wortschatz wurde im Laufe der Zeit mit sehr vielen romanischen Ausdrücken durchsetzt.
