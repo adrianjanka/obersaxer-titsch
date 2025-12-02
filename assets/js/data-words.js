@@ -23,7 +23,7 @@
 
 export const words = [
   {
-    id: "aani",
+    id: "ààni",
     folder: "cards/aani",
     frontImage: "aani.jpg",
     backImage: "aani2.jpg",
@@ -33,7 +33,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "albig",
+    id: "àlbig",
     folder: "cards/albig",
     frontImage: "albig.jpg",
     backImage: "albig2.jpg",
@@ -53,7 +53,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "azinnta",
+    id: "àzinnta",
     folder: "cards/azinnta",
     frontImage: "azinnta.jpg",
     backImage: "azinnta2.jpg",
@@ -63,7 +63,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "baaba",
+    id: "bààba",
     folder: "cards/baaba",
     frontImage: "baaba.jpg",
     backImage: "baaba2.jpg",
@@ -83,7 +83,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "bara_lugi",
+    id: "bàra lugi",
     folder: "cards/bara_lugi",
     frontImage: "bara_lugi.jpg",
     backImage: "bara_lugi2.jpg",
@@ -103,7 +103,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "blaaw",
+    id: "blààw",
     folder: "cards/blaaw",
     frontImage: "blaaw.jpg",
     backImage: "blaaw2.jpg",
@@ -133,7 +133,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "chara",
+    id: "chàra",
     folder: "cards/chara",
     frontImage: "chara.jpg",
     backImage: "chara2.jpg",
@@ -163,7 +163,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "chnaba",
+    id: "chnàba",
     folder: "cards/chnaba",
     frontImage: "chnaba.jpg",
     backImage: "chnaba2.jpg",
@@ -203,7 +203,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "diraab",
+    id: "dirààb",
     folder: "cards/diraab",
     frontImage: "diraab.jpg",
     backImage: "diraab2.jpg",
@@ -247,7 +247,7 @@ export const words = [
     folder: "cards/faara",
     frontImage: "faara.jpg",
     backImage: "faara2.jpg",
-    germanWord: "fahren",
+    germanWord: "letztes Jahr",
     category: "verb",
     tags: [],
     addedAt: "2024-01-01"
@@ -313,7 +313,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "ggana",
+    id: "ggàna",
     folder: "cards/ggana",
     frontImage: "ggana.jpg",
     backImage: "ggana2.jpg",
@@ -333,7 +333,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "ggragga",
+    id: "ggrààgga",
     folder: "cards/ggragga",
     frontImage: "ggragga.jpg",
     backImage: "ggragga2.jpg",
@@ -443,7 +443,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "hüs",
+    id: "hüss",
     folder: "cards/hüs",
     frontImage: "hüs.jpg",
     backImage: "hüs2.jpg",
@@ -473,7 +473,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "kalfaktar",
+    id: "kalfàktar",
     folder: "cards/kalfaktar",
     frontImage: "kalfaktar.jpg",
     backImage: "kalfaktar2.jpg",
@@ -563,7 +563,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "narrabei",
+    id: "nàrrabei",
     folder: "cards/narrabei",
     frontImage: "narrabei.jpg",
     backImage: "narrabei2.jpg",
@@ -623,7 +623,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "paader",
+    id: "pààder",
     folder: "cards/paader",
     frontImage: "paader.jpg",
     backImage: "paader2.jpg",
@@ -723,7 +723,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "rangg",
+    id: "ràngg",
     folder: "cards/rangg",
     frontImage: "rangg.jpg",
     backImage: "rangg2.jpg",
@@ -773,7 +773,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "sackrappa",
+    id: "sàckràppa",
     folder: "cards/sackrappa",
     frontImage: "sackrappa.jpg",
     backImage: "sackrappa2.jpg",
@@ -793,7 +793,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "samachlaas",
+    id: "sàmachlààs",
     folder: "cards/samachlaas",
     frontImage: "samachlaas.jpg",
     backImage: "samachlaas2.jpg",
@@ -803,7 +803,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "schachla",
+    id: "schàchla",
     folder: "cards/schachla",
     frontImage: "schachla.jpg",
     backImage: "schachla2.jpg",
@@ -833,7 +833,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "schgaffa",
+    id: "schgàffa",
     folder: "cards/schgaffa",
     frontImage: "schgaffa.jpg",
     backImage: "schgaffa2.jpg",
@@ -963,7 +963,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "spaat",
+    id: "spààt",
     folder: "cards/spaat",
     frontImage: "spaat.jpg",
     backImage: "spaat2.jpg",
@@ -973,7 +973,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "spargamenti",
+    id: "spargamenti màcha",
     folder: "cards/spargamenti",
     frontImage: "spargamenti.jpg",
     backImage: "spargamenti2.jpg",
@@ -1007,13 +1007,13 @@ export const words = [
     folder: "cards/süüfa",
     frontImage: "süüfa.jpg",
     backImage: "süüfa2.jpg",
-    germanWord: "trinken",
-    category: "verb",
+    germanWord: "Johanisbeeren",
+    category: "noun",
     tags: [],
     addedAt: "2024-01-01"
   },
   {
-    id: "tabakseggal",
+    id: "tabàkseggal",
     folder: "cards/tabakseggal",
     frontImage: "tabakseggal.jpg",
     backImage: "tabakseggal2.jpg",
@@ -1043,7 +1043,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "trinscha",
+    id: "trintscha",
     folder: "cards/trinscha",
     frontImage: "trinscha.jpg",
     backImage: "trinscha2.jpg",
@@ -1103,7 +1103,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "ubaranni_si",
+    id: "ubaranni si",
     folder: "cards/ubaranni_si",
     frontImage: "ubaranni_si.jpg",
     backImage: "ubaranni_si2.jpg",
@@ -1113,7 +1113,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "umma_si",
+    id: "umma si",
     folder: "cards/umma_si",
     frontImage: "umma_si.jpg",
     backImage: "umma_si2.jpg",
@@ -1123,7 +1123,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "undar_si",
+    id: "undar si",
     folder: "cards/undar_si",
     frontImage: "undar_si.jpg",
     backImage: "undar_si2.jpg",
@@ -1173,7 +1173,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "varkumma_heissa",
+    id: "varkumma heissa",
     folder: "cards/varkumma_heissa",
     frontImage: "varkumma_heissa.jpg",
     backImage: "varkumma_heissa2.jpg",
@@ -1263,7 +1263,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "wind_cho",
+    id: "in a wind cho",
     folder: "cards/wind_cho",
     frontImage: "wind_cho.jpg",
     backImage: "wind_cho2.jpg",
@@ -1293,7 +1293,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "zangga",
+    id: "zàngga",
     folder: "cards/zangga",
     frontImage: "zangga.jpg",
     backImage: "zangga2.jpg",
@@ -1333,7 +1333,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "zmaal",
+    id: "zmààl",
     folder: "cards/zmaal",
     frontImage: "zmaal.jpg",
     backImage: "zmaal2.jpg",
@@ -1353,7 +1353,7 @@ export const words = [
     addedAt: "2024-01-01"
   },
   {
-    id: "zuu",
+    id: "züü",
     folder: "cards/zuu",
     frontImage: "zuu.jpg",
     backImage: "zuu2.jpg",
