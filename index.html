@@ -2,6 +2,13 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
+  <script>
+    try {
+      if (!matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        document.documentElement.dataset.buachTw = 'run'
+      }
+    } catch (e) {}
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Obersàxer Titsch</title>
   
@@ -39,6 +46,7 @@
   <link rel="stylesheet" href="assets/css/background.css">
   <link rel="stylesheet" href="assets/css/animations.css">
   <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/buach.css">
   
   <!-- Favicon -->
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
@@ -61,6 +69,9 @@
       </button>
 
       <ul class="nav__menu" id="nav-menu">
+        <li class="nav__item">
+          <a href="https://buach.obersaxer-titsch.ch/" target="_blank" rel="noopener noreferrer" class="nav__link nav__link--buach">Weerterbuach</a>
+        </li>
         <li class="nav__item">
           <a href="memory.html" class="nav__link">Memory</a>
         </li>
@@ -86,21 +97,67 @@
     </nav>
   </header>
 
-  <!-- Hero Section: Word of the Day -->
-  <section class="hero" id="hero">
-    <div class="hero__container">
-      <h2 class="section__title hero__title">Wort vom Tàg</h2>
-      <div class="hero__card-wrapper">
-        <div class="hero__card" id="hero-card">
-          <!-- Rendered by word-of-the-day.js -->
+  <!-- Buach Section: Teaser für buach.obersaxer-titsch.ch -->
+  <section class="buach" id="buach" aria-labelledby="buach-title">
+    <div class="buach__panel">
+      <div class="buach__cols">
+        <div class="buach__col buach__col--lead">
+          <p class="buach__brand">
+            <span class="buach__brand-name">Obersàxer Titsch</span>
+            <span class="buach__brand-tag">Wörterbuch</span>
+          </p>
+
+          <h2 class="buach__headline" id="buach-title" aria-label="Weerter vo A bis Z" lang="gsw">
+            <span class="tw-word" aria-hidden="true"><span class="tw-c">W</span><span class="tw-c">e</span><span class="tw-c">e</span><span class="tw-c">r</span><span class="tw-c">t</span><span class="tw-c">e</span><span class="tw-c">r</span></span>
+            <br class="buach__headline-br buach__headline-br--mobile">
+            <span class="tw-word" aria-hidden="true"><span class="tw-c">v</span><span class="tw-c">o</span></span>
+            <br class="buach__headline-br buach__headline-br--desktop">
+            <span class="marker">
+              <span class="tw-word" aria-hidden="true"><span class="tw-c">A</span></span>
+              <span class="tw-word" aria-hidden="true"><span class="tw-c">b</span><span class="tw-c">i</span><span class="tw-c">s</span></span>
+              <span class="tw-word" aria-hidden="true"><span class="tw-c">Z</span></span>
+            </span>
+            <span class="buach__stamp">ist online!</span>
+          </h2>
+        </div>
+
+        <div class="buach__divider buach__divider--col" aria-hidden="true"></div>
+
+        <div class="buach__col buach__col--detail">
+          <p class="buach__lede">
+            Alli Weerter an einem Ort: Uber 3000 Weerter üs Obersàxa zum Nàchaschlàà, Suacha und Mitmàcha.
+          </p>
+
+          <div class="buach__divider buach__divider--row" aria-hidden="true"></div>
+
+          <div class="buach__cta">
+            <a
+              href="https://buach.obersaxer-titsch.ch/"
+              class="buach__url"
+              target="_blank"
+              rel="noopener noreferrer"
+            >buach.obersaxer-titsch.ch</a>
+            <a
+              href="https://buach.obersaxer-titsch.ch/"
+              class="buach__tap"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Tippen
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M9 18L15 12L9 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
-      <a href="#memory-teaser" class="hero__scroll-hint" aria-label="Nach unten scrollen">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-          <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
     </div>
+
+    <a href="#memory-teaser" class="buach__more" aria-label="Weiter zu Memory">
+      <svg class="buach__more-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 5V19M12 19L5 12M12 19L19 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
   </section>
 
   <!-- Memory Teaser Section -->
@@ -255,6 +312,7 @@
           <div class="footer__column">
             <h3 class="footer__heading">Navigation</h3>
             <ul class="footer__list">
+              <li><a href="https://buach.obersaxer-titsch.ch/" target="_blank" rel="noopener noreferrer" class="footer__link">Weerterbuach</a></li>
               <li><a href="index.html" class="footer__link">Home</a></li>
               <li><a href="memory.html" class="footer__link">Memory</a></li>
               <li><a href="weerter.html" class="footer__link">Weerter</a></li>

@@ -3,12 +3,12 @@
  * Initializes all modules and sets up event listeners
  */
 
-import { initWordOfTheDay } from './word-of-the-day.js';
 import { initCarousel } from './carousel.js';
 import { initCardRenderer } from './card-renderer.js';
 import { initSorting } from './sorting.js';
 import { initBackgroundAnimation } from './background-animation.js';
 import { initNavigation } from './navigation.js';
+import { initBuachTypewriter } from './buach-typewriter.js';
 
 // Initialize all modules when DOM is ready
 document.addEventListener('DOMContentLoaded', () => {
@@ -17,9 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
   
   // Navigation
   initNavigation();
-  
-  // Hero: Word of the Day
-  initWordOfTheDay();
+
+  initBuachTypewriter();
   
   // Carousel
   initCarousel();

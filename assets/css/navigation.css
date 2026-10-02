@@ -124,6 +124,26 @@
   background-color: var(--color-accent-1);
 }
 
+/* Buach: wie «Wort melden» auf buach.obersaxer-titsch.ch (Tinte & Heu) */
+.nav__link--buach {
+  background: #ffd23f;
+  border: 2px solid #101c3f;
+  color: #101c3f;
+  font-weight: 700;
+}
+
+.nav__link--buach:hover,
+.nav__link--buach:focus-visible {
+  color: #101c3f;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+.nav__link--buach.nav__link--active::after {
+  display: none;
+}
+
 /* ============================================
    Dropdown
    ============================================ */
